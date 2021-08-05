@@ -43,7 +43,7 @@
                 border-color: white;
                 border-style: solid;
                 border-radius: 5px;
-                background-color: rgba(170, 170, 170, 0.411);
+                background: linear-gradient(90deg, rgba(0, 140, 255, 0.5), rgba(109, 157, 196, 0.5), rgba(253, 253, 253, 0.5));
                 /*background-image:url(busniss.png);*/
                 background-size: cover;
                 color: rgb(0, 0, 0);
@@ -51,6 +51,19 @@
                 margin: 2% 25% 2% 7%;
                 box-shadow: 0 10px 10px black, 0 6px 6px black;
                 font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+                animation: sme 0.7s ease-in;
+            }
+
+            @keyframes sme{
+                0%{
+                    transform: skewX(-50deg) translateX(2000px) ;
+                }
+                80%{
+                    transform: skewX(0deg) translateX(-100px) ;
+                }
+                100%{
+                    transform: skewX(0dig);
+                }
             }
         </style>
     </head>
