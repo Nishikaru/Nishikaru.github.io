@@ -1,0 +1,15 @@
+h1{
+    color:red;
+    padding: 5% 10% 5% 10%;
+    margin: auto;
+    border-style: solid;
+    background-color: rgba(171, 221, 230, 0.863);
+}
+h3{
+    color: tomato;
+    border-style: double;
+    border-radius: 25px;
+    padding: 5px 5px 5px 5px;
+    margin: 5px 0px 5px 0px;
+    background-color: rgba(96, 78, 158, 0.931);
+}
