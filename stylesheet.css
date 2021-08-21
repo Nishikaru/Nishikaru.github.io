@@ -13,3 +13,16 @@ h3{
     margin: 5px 0px 5px 0px;
     background-color: rgba(96, 78, 158, 0.931);
 }
+p{
+    color: rgb(45, 161, 165);
+}
+ul{
+    border-style: groove;
+    padding: 2px 2px 2px 2px;
+    margin: 2px 2px 2px 2px;
+    color: forestgreen;
+
+}
+li:hover{
+    font-size: 25px;
+}
