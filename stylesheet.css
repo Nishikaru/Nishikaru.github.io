@@ -14,7 +14,7 @@ h3{
     background-color: rgba(96, 78, 158, 0.931);
 }
 p{
-    color: 37392E;
+    color: #37392E;
     font-size: 20px;
 }
 p:hover{
@@ -22,7 +22,7 @@ p:hover{
 }
 ul{
     border-style: groove;
-    padding: 2px 2px 2px 2px;
+    padding: 5px 10px 5px 20px;
     margin: 2px 2px 2px 2px;
     color: rgb(23, 95, 85);
 
