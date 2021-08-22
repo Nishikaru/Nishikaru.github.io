@@ -60,7 +60,7 @@ body{
 .card{
     font-size: 20px;
 }
-@media (max-width: 300px) { 
+@media (max-width: 500px) { 
     #card{
         background-color: #b0283fe3;
     }
