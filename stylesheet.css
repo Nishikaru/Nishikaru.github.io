@@ -53,12 +53,18 @@ body{
     background-color: rgb(223, 253, 142);
     font-size: 17px;
 }
+.bg{
+    background-position: right;
+    background-image: url(./img/8_22_2021\ 2_02_17\ PM.png);
+    background-attachment: fixed;
+    
+}
 #card{
-    background-color: #28AFB0;
+    background-color: #28b0b0ca;
     padding: 20px 20px 20px 20px;
     border-radius: 10px;
-    box-shadow: 0 5px 7px #19647E, 0 0 13px #19647E;
-    text-shadow: 1px 1px 10px #19647E;
+    box-shadow: 0 5px 7px #19657ed8, 0 0 13px #19647E;
+    text-shadow: 1px 1px 10px #19657e;
     color: #37392E;
     position: relative;
     margin: 20px 20px 20px 20px;
@@ -76,6 +82,7 @@ body{
     margin: 20px 20px 20px 20px;
     width: 550px;
     height: 550px;
+    
 }
 .card{
     font-size: 20px;
