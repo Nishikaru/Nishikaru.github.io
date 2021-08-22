@@ -55,6 +55,7 @@ body{
     box-shadow: 0 5px 7px #19647E, 0 0 13px #19647E;
     text-shadow: 1px 1px 10px #19647E;
     color: #37392E;
+    position: relative;
 }
 .card{
     font-size: 20px;
