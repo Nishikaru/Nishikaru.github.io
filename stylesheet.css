@@ -81,7 +81,9 @@ body{
     font-size: 20px;
 }
 .img{
-    width: auto;
+    width: 100%;
+    height: auto;
+    position: relative;
 }
 @media (max-width:800px) {
     .img{
