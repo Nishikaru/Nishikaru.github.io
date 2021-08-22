@@ -1,9 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Rampart+One&display=swap');
 h1{
     color:red;
     padding: 5% 10% 5% 10%;
     margin: auto;
     border-style: solid;
     background-color: rgba(171, 221, 230, 0.863);
+    font-family: 'Rampart One', cursive;
 }
 h3{
     color: tomato;
@@ -16,6 +18,7 @@ h3{
 p{
     color: #37392E;
     font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 p:hover{
     font-size: 21px;
