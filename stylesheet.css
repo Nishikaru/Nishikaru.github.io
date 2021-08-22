@@ -32,7 +32,7 @@ a:hover{
     color: rgb(255, 60, 0);
 }
 input{
-    padding: 2.5px 40px 2.5px 40px;
+    padding: 2.5px 20px 2.5px 20px;
     border-radius: 4px;
     position: relative;
 }
@@ -42,7 +42,7 @@ input:hover{
     font-size: 20px;
     position: relative;
     @media (max-width:800px) {
-        padding: 5px 40px 5px 40px;
+        padding: 5px 20px 5px 20px;
     }
 }
 button:hover{
