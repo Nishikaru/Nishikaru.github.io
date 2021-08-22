@@ -82,5 +82,7 @@ body{
     }
     #card{
         box-shadow: 10px 17px 13px #19647E;
+        width: 250px;
+        height: auto;
     }
 }
