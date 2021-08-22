@@ -14,7 +14,7 @@ h3{
     background-color: rgba(96, 78, 158, 0.931);
 }
 p{
-    color: rgb(45, 161, 165);
+    color: 37392E;
     font-size: 20px;
 }
 p:hover{
@@ -24,7 +24,7 @@ ul{
     border-style: groove;
     padding: 2px 2px 2px 2px;
     margin: 2px 2px 2px 2px;
-    color: forestgreen;
+    color: rgb(23, 95, 85);
 
 }
 a:hover{
@@ -48,9 +48,10 @@ body{
     background-color: rgb(223, 253, 142);
 }
 #card{
-    background-color: rgb(155, 255, 169);
+    background-color: #28AFB0;
     padding: 2px 20px 20px 20px;
     border-radius: 10px;
-    box-shadow: 0 5px 7px rgba(175, 207, 88, 0.644), 0 0 13px rgb(223, 253, 142);
-    text-shadow: 1px 1px 10px rgb(70, 158, 82);
+    box-shadow: 0 5px 7px #19647E, 0 0 13px #19647E;
+    text-shadow: 1px 1px 10px #19647E;
+    color: #37392E;
 }
