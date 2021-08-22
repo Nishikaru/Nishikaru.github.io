@@ -34,11 +34,13 @@ a:hover{
 input{
     padding: 2.5px 40px 2.5px 40px;
     border-radius: 4px;
+    position: relative;
 }
 input:hover{
     padding: 5px 70px 5px 70px;
     border-radius: 6px;
     font-size: 20px;
+    position: relative;
     @media (max-width:800px) {
         padding: 5px 40px 5px 40px;
     }
@@ -72,5 +74,6 @@ body{
     .img{
         width: 100%;
         height: auto;
+        position: relative;
     }
 }
