@@ -56,12 +56,8 @@ body{
     text-shadow: 1px 1px 10px #19647E;
     color: #37392E;
     position: relative;
+    margin: 20px 20px 20px 20px;
 }
 .card{
     font-size: 20px;
-}
-@media (max-width: 500px) { 
-    #card{
-        background-color: #b0283fe3;
-    }
 }
