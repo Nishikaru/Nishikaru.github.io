@@ -46,6 +46,7 @@ button:hover{
 }
 body{
     background-color: rgb(223, 253, 142);
+    font-size: 17px;
 }
 #card{
     background-color: #28AFB0;
@@ -54,4 +55,7 @@ body{
     box-shadow: 0 5px 7px #19647E, 0 0 13px #19647E;
     text-shadow: 1px 1px 10px #19647E;
     color: #37392E;
+}
+.card{
+    font-size: 20px;
 }
