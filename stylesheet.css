@@ -44,6 +44,7 @@ hr{
     outline-color: rgb(0, 140, 255);
     outline-offset: -7px;
     /* margin: 2px 5px; */
+    position: sticky;
 }
 .cont{
     display: inline-block;
