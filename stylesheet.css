@@ -1,122 +1,58 @@
-@import url('https://fonts.googleapis.com/css2?family=Rampart+One&display=swap');
-h1{
-    color:red;
-    padding: 5% 10% 5% 10%;
-    margin: auto;
-    border-style: solid;
-    background-color: rgba(171, 221, 230, 0.863);
-    font-family: 'Rampart One', cursive;
-}
-h3{
-    color: tomato;
-    border-style: double;
-    border-radius: 16.5px;
-    padding: 5px 5px 5px 5px;
-    margin: 5px 0px 5px 0px;
-    background-color: rgba(96, 78, 158, 0.931);
-}
-p{
-    color: #37392E;
-    font-size: 20px;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-}
-p:hover{
-    font-size: 21px;
-}
-ul{
-    border-style: groove;
-    padding: 5px 10px 5px 20px;
-    margin: 2px 2px 2px 2px;
-    color: rgb(23, 95, 85);
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merienda&display=swap');
 
+h1{
+    font-family: 'Caveat', cursive;
+    text-shadow: 5px 2px 5px rgba(0, 0, 0, 0.76);
+    color: rgb(32, 32, 32);
 }
-a:hover{
-    font-size: 20px;
-    color: rgb(255, 60, 0);
-}
-input{
-    padding: 2.5px 20px 2.5px 20px;
-    border-radius: 4px;
-    position: relative;
-    margin: 2px 10px 2px 2px 10px;
-}
-input:hover{
-    padding: 5px 10px 5px 10px;
-    border-radius: 6px;
-    font-size: 20px;
-    position: relative;
-    margin: 2px 10px 2px 2px 10px;
-}
-button:hover{
-    padding: 5px 10px 5px 10px;
-    font-size: 15px;
-    
+*{
+    margin: 0px;
+    padding: 0px;
 }
 body{
-    background-color: rgb(223, 253, 142);
-    font-size: 17px;
+    background-color: wheat;
+    text-align: center;
 }
-.bg{
-    background-position: right;
-    background-image: url(./img/8_22_2021\ 2_02_17\ PM.png);
-    background-attachment: fixed;
-    
+ul li a{
+    text-decoration: none;
+    display: inline-block;
+    list-style-type: none;
+    padding: 5px;
+    color: tomato;
+    box-sizing: border-box;
+    margin: 2px 10px;
+    font-family: 'Satisfy', cursive;
+    text-shadow: 5px 5px 5px rgb(0, 0, 0);
 }
-#card{
-    background-color: #28b0b0ca;
-    padding: 20px 20px 20px 20px;
-    border-radius: 10px;
-    box-shadow: 0 5px 7px #19657ed8, 0 0 13px #19647E;
-    text-shadow: 1px 1px 10px #19657e;
-    color: #37392E;
-    position: relative;
-    margin: 20px 20px 20px 20px;
-    width: 500px;
-    height: auto;
+hr{
+    margin: 0px 10px;
+    opacity: .2;
 }
-#card:hover{
-    background-color: #2acccc;
-    padding: 20px 20px 20px 20px;
-    border-radius: 10px;
-    box-shadow: 5px 10px 13px #19647E, 5px 10px 13px #19647E;
-    text-shadow: 1px 1px 10px #19647E;
-    color: #37392E;
-    position: relative;
-    margin: 20px 20px 20px 20px;
-    width: 550px;
-    height: 550px;
-    
+.niv{
+    background-color: rgb(32, 32, 32);
+    /* border-style: solid; */
+    /* border-color: yellow; */
+    outline-style: solid;
+    outline-color: rgb(0, 140, 255);
+    outline-offset: -7px;
+    /* margin: 2px 5px; */
 }
-.card{
-    font-size: 20px;
+.cont{
+    display: inline-block;
+    box-sizing: border-box;
+    width: 200px;
+    height: 500px;
+    margin: 1rem;
+    padding: 1rem;
+    background-color: rgba(0, 128, 128, 0.801);
+    border-radius: 1rem;
+    box-shadow: 0px 0px 13px black;
 }
-.img{
-    width: 100%;
-    height: auto;
-    position: relative;
+.cont:hover{
+    box-shadow: 0 0 0;
 }
-@media (max-width:800px) {
-    .img{
-        width: 100%;
-        height: auto;
-        position: relative;
-    }
-    .card{
-        font-size: 17px;
-    }
-    #card{
-        box-shadow: 10px 17px 13px #19647E;
-        width: 70%;
-        height: auto;
-    }
-    #card:hover{
-        box-shadow: -10px 17px 13px #19647E;
-        width: 80%;
-        height: auto;
-        margin: 3%;
-    }
+p{
+    font-family: 'Merienda', cursive;
 }
-table{
-    border-style: solid;
-}
-th{border-style: solid;}td{border-style: solid;}
