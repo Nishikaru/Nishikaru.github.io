@@ -23,6 +23,21 @@ html{
 body{
     background-color: wheat;
     text-align: center;
+    justify-content: center;
+    align-items: center;
+
+}
+img{
+    width: 100%; 
+    height: auto;
+}
+@media (min-width: 800px) {
+    img{
+        width: 50%;
+        height: auto;
+        margin: 20px;
+        box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.555);
+    }
 }
 ul li a{
     text-decoration: none;
