@@ -4,12 +4,12 @@
 
 h1{
     font-family: 'Caveat', cursive;
-    text-shadow: 5px 2px 5px rgba(0, 0, 0, 0.76);
+    text-shadow: 3px 3px 4px rgba(0, 0, 0, 0.76);
     color: rgb(32, 32, 32);
 }
 h3{
     font-family: 'Caveat', cursive;
-    text-shadow: 5px 2px 5px rgba(0, 0, 0, 0.76);
+    text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.76);
     color: rgb(32, 32, 32);
     text-align: left;
 }
@@ -106,4 +106,10 @@ button{
 button:hover{
     box-shadow: 0 0 0;
     background-color: rgb(70, 115, 199);
+}
+.glass{
+    padding: 2em;
+    margin: 1em;
+    border-radius: 0.4em;
+    background-color: rgba(255, 255, 255, 0.5);
 }
