@@ -26,7 +26,7 @@ body{
     justify-content: center;
     align-items: center;
     animation: bc 10s infinite linear;
-
+    box-sizing: border-box;
 }
 @keyframes bc{
     0%{
@@ -36,7 +36,7 @@ body{
         background-color: rgb(206, 255, 244)
     }
 }
-img{
+/* img{
     width: 100%; 
     height: auto;
 }
@@ -47,7 +47,7 @@ img{
         margin: 20px;
         box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.555);
     }
-}
+} */
 ul li a{
     text-decoration: none;
     display: inline-block;
@@ -75,7 +75,8 @@ hr{
     outline-color: rgb(0, 140, 255);
     outline-offset: -7px;
     /* margin: 2px 5px; */
-    position: sticky;
+    position: fixed;
+    width: 100%;
 }
 .cont{
     display: inline-block;
@@ -129,6 +130,21 @@ button:hover{
     background-image: url(./img/20209.jpg);
     background-size: 100% 100%;
     animation: slider 15s infinite linear;
+    box-shadow: 0px 0px 10px 5px white;
+}
+@media (min-width: 800px){
+    .mdiv{
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%,-50%);
+        width: 50%;
+        height: 600px;
+        border-radius: 0.4em;
+    }
+    section{
+        height: 60vh;
+    }
 }
 @keyframes slider{
     1%{ background-image: url(./img/20209.jpg); }
