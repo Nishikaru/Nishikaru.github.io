@@ -1,11 +1,24 @@
 @import url('https://fonts.googleapis.com/css2?family=Caveat:wght@600&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Merienda&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
 
 h1{
-    font-family: 'Caveat', cursive;
+    font-family: 'Lobster', cursive;
     text-shadow: 3px 3px 4px rgba(0, 0, 0, 0.76);
     color: rgb(32, 32, 32);
+    animation:  h1 5s infinite linear;
+}
+@keyframes h1{
+    0%{
+        color: rgb(255, 0, 0);
+    }
+    50%{    
+        color: rgb(0, 140, 255);
+    }
+    100%{
+        color: rgb(255, 0, 0);
+    }
 }
 h3{
     font-family: 'Caveat', cursive;
