@@ -25,7 +25,16 @@ body{
     text-align: center;
     justify-content: center;
     align-items: center;
+    animation: bc 10s infinite linear;
 
+}
+@keyframes bc{
+    0%{
+        background-color: wheat;
+    }
+    50%{    
+        background-color: rgb(206, 255, 244)
+    }
 }
 img{
     width: 100%; 
