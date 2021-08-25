@@ -112,4 +112,17 @@ button:hover{
     margin: 1em;
     border-radius: 0.4em;
     background-color: rgba(255, 255, 255, 0.5);
+    box-shadow: 2px 2px 1px rgba(0, 0, 0, 0.452);
+}
+
+.mdiv{
+    height: 50vh;
+    background-image: url(./img/20209.jpg);
+    background-size: 100% 100%;
+    animation: slider 20s infinite linear;
+}
+@keyframes slider{
+    0%{ background-image: url(./img/20209.jpg); }
+    35%{ background-image: url(https://images.pexels.com/photos/2219024/pexels-photo-2219024.jpeg?auto=compress&cs=tinysrgb&h=650&w=940); }
+    75%{ background-image: url(https://images.pexels.com/photos/5242049/pexels-photo-5242049.jpeg?auto=compress&cs=tinysrgb&h=650&w=940);}
 }
