@@ -188,8 +188,8 @@ up button
 */
 .up{
     position: fixed;
-    left: 60vh;
-    top: 93vh;
+    left: 85%;
+    top: 90%;
     background-color: rgba(54, 218, 32, 0.267);
     transform: rotate(45deg);
     -webkit-transform: rotate(45deg);
