@@ -216,14 +216,11 @@ up button
     left: 70%;
     top: 75%;
     background-color: rgba(54, 218, 32, 0.267);
-    -ms-transform: rotate(45deg);
-        transform: rotate(45deg);
-    -webkit-transform: rotate(45deg);
-    -moz-transform: rotate(45deg);
     border: 1px solid rgb(56, 102, 121);
-
+    border-radius: 200px 200px 0px 0px;
+    color: gold;
 }
-.up a{
+.up {
     -webkit-text-decoration-line: none;
             text-decoration-line: none;
     padding: 5px;
