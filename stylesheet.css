@@ -1,31 +1,17 @@
-@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@600&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Merienda&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.3.6,
+* Autoprefixer: v10.3.1
+* Browsers: last 4 version
+*/
 
-h1{
-    font-family: 'Lobster', cursive;
-    text-shadow: 3px 3px 4px rgba(0, 0, 0, 0.76);
-    color: rgb(32, 32, 32);
-    animation:  h1 5s infinite linear;
-}
-@keyframes h1{
-    0%{
-        color: rgb(255, 0, 0);
-    }
-    50%{    
-        color: rgb(0, 140, 255);
-    }
-    100%{
-        color: rgb(255, 0, 0);
-    }
-}
-h3{
-    font-family: 'Caveat', cursive;
-    text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.76);
-    color: rgb(32, 32, 32);
-    text-align: left;
-}
+/*
+Import urls
+*/
+@import url('https://fonts.googleapis.com/css2?family=Marck+Script&display=swap');
+
+
+
 *{
     margin: 0px;
     padding: 0px;
@@ -33,142 +19,78 @@ h3{
 html{
     scroll-behavior: smooth;
 }
-body{
-    background-color: wheat;
-    text-align: center;
-    justify-content: center;
-    align-items: center;
-    animation: bc 10s infinite linear;
-    box-sizing: border-box;
+:root{
+    --screensize:100vh;
 }
-@keyframes bc{
-    0%{
-        background-color: wheat;
-    }
-    50%{    
-        background-color: rgb(206, 255, 244)
-    }
+/*
+first look
+*/
+.firstlook{
+    height: var(--screensize);
+
+    display: -webkit-box;
+
+    display: -ms-flexbox;
+
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+
 }
-/* img{
-    width: 100%; 
-    height: auto;
+.firstlook h1{
+    font-size: 5em;
+    font-family: 'Marck Script', cursive;
+    text-shadow: 0px 15px 4px rgba(0,0,0,0.25);
+    -webkit-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
 }
-@media (min-width: 800px) {
-    img{
-        width: 50%;
-        height: auto;
-        margin: 20px;
-        box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.555);
-    }
-} */
-ul li a{
-    text-decoration: none;
+.firstlook h1:hover{
+    color: tomato;
+    text-shadow: 0px 0px 10px gold;
+}
+/*
+Nav bar
+*/
+.nav{
     display: inline-block;
     list-style-type: none;
-    padding: 5px;
-    color: tomato;
-    box-sizing: border-box;
-    margin: 2px 10px;
-    font-family: 'Satisfy', cursive;
-    text-shadow: 5px 5px 5px rgb(0, 0, 0);
-}
-ul li a:hover{
-    font-size: 18px;
-    text-transform: uppercase;
-}
-hr{
-    margin: 0px 10px;
-    opacity: .2;
-}
-.niv{
-    background-color: rgb(32, 32, 32);
-    /* border-style: solid; */
-    /* border-color: yellow; */
-    outline-style: solid;
-    outline-color: rgb(0, 140, 255);
-    outline-offset: -7px;
-    /* margin: 2px 5px; */
-    position: fixed;
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#4c4c4c+0,303030+11,2c2c2c+51,000000+51,2b2b2b+67,2b2b2b+67,131313+100 */
+    background: #4c4c4c; /* Old browsers */ /* FF3.6-15 */ /* Chrome10-25,Safari5.1-6 */
+    background: -o-linear-gradient(45deg,  #4c4c4c 0%,#303030 11%,#2c2c2c 51%,#000000 51%,#2b2b2b 67%,#2b2b2b 67%,#131313 100%);
+    background: linear-gradient(45deg,  #4c4c4c 0%,#303030 11%,#2c2c2c 51%,#000000 51%,#2b2b2b 67%,#2b2b2b 67%,#131313 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4c4c4c', endColorstr='#131313',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
     width: 100%;
+    box-shadow: 0px 0px 48px -5px rgba(114,220,255,0.51) inset;
+    -webkit-box-shadow: 0px 0px 48px -5px rgba(114,220,255,0.51) inset;
+    -moz-box-shadow: 0px 0px 48px -5px rgba(114,220,255,0.51) inset;
 }
-.cont{
-    display: inline-block;
-    box-sizing: border-box;
-    width: 200px;
-    height: 300px;
-    margin: 1rem;
-    padding: 1rem;
-    background-color: rgba(0, 128, 128, 0.5);
-    border-radius: 1rem;
-    box-shadow: 0px 0px 13px black;
-    font-size: 14px;
+.nav button{
+    width: 100%;
+    background-color: rgba(255, 217, 0, 0);
+    color: honeydew;
+    border:2px solid rgba(0, 0, 0, 0);
+    -webkit-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+    margin: 0px 0px;
+    padding: 3.4px;
+    display: block;
 }
-.cont:hover{
-    box-shadow: 0 0 0;
-    background-color: rgba(0, 128, 128, 0.801);
+.nav button:hover{
+    background-color: rgba(182, 182, 182, 0.52);
+    color:#131313;
+    border-style: solid;
+    border-color: indianred;
+    text-shadow: -10px 0px 3px rgba(0,0,0,0.44);
 }
-p{
-    font-family: 'Merienda', cursive;
+.nav a{
+    text-decoration-line: none;
 }
-.foot{
-    background-color: floralwhite;
-    box-shadow: 0px -5px 5px rgba(0, 0, 0, 0.5);
-}
-button{
-    padding: 0.4em;
-    margin: 0.4em;
-    justify-content: left;
-    border-radius: 0.4em;
-    box-shadow: 0px 2.5px 1px black;
-    background-color: cornflowerblue;
-    color: cornsilk;
-    font-family: cursive;
-    border-color: rgb(70, 115, 199);
-
-}
-button:hover{
-    box-shadow: 0 0 0;
-    background-color: rgb(70, 115, 199);
-}
-.glass{
-    padding: 2em;
-    margin: 1em;
-    border-radius: 0.4em;
-    background-color: rgba(255, 255, 255, 0.5);
-    box-shadow: 2px 2px 1px rgba(0, 0, 0, 0.452);
-}
-
-.mdiv{
-    /* margin: 50px 0px 80px 0px; */
-    height: 50vh;
-    background-image: url(./img/20209.jpg);
-    background-size: 100% 100%;
-    animation: slider 15s infinite linear;
-    box-shadow: 0px 0px 10px 5px white;
-}
-@media (min-width: 800px){
-    .mdiv{
-        position: absolute;
-        left: 50%;
-        top: 50%;
-        transform: translate(-50%,-50%);
-        width: 50%;
-        height: 550px;
-        margin: 50px 0px 50px 0px;
-        border-radius: 0.4em;
-    }
-    section{
-        height: 60vh;
-    }
-}
-@keyframes slider{
-    1%{ background-image: url(./img/20209.jpg); }
-    34%{ background-image: url(./img/20209.jpg); }
-    36%{ background-image: url(https://images.pexels.com/photos/2219024/pexels-photo-2219024.jpeg?auto=compress&cs=tinysrgb&h=650&w=940); }
-    74%{ background-image: url(https://images.pexels.com/photos/2219024/pexels-photo-2219024.jpeg?auto=compress&cs=tinysrgb&h=650&w=940); }
-    76%{ background-image: url(https://images.pexels.com/photos/5242049/pexels-photo-5242049.jpeg?auto=compress&cs=tinysrgb&h=650&w=940);}
-    99%{ background-image: url(https://images.pexels.com/photos/5242049/pexels-photo-5242049.jpeg?auto=compress&cs=tinysrgb&h=650&w=940);}
-}
-a{
-    text-decoration: none;
-}
+/*
+Web dev site
+*/
