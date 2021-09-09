@@ -190,7 +190,7 @@ up button
 .up{
     position: fixed;
     left: 70%;
-    top: 70%;
+    top: 75%;
     background-color: rgba(54, 218, 32, 0.267);
     transform: rotate(45deg);
     -webkit-transform: rotate(45deg);
