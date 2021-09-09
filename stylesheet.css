@@ -128,7 +128,11 @@ Web dev site
     -moz-column-rule: 2px solid #000000;
     padding: 1em;
     font-family: monospace;
-    font-size: 22px;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+
+    width: 400px;
     }
 /*
 about me
