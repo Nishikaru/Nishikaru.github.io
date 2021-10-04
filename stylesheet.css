@@ -17,6 +17,7 @@
     height: 100vh;
     background-image: url(./img/20209.jpg);
     margin-top: -20px;
+    width: 100%;
 }
 .secendLook{
     background-color: #fff;
