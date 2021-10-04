@@ -5,6 +5,13 @@
 * Browsers: last 4 version
 */
 
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.3.6,
+* Autoprefixer: v10.3.1
+* Browsers: last 4 version
+*/
+
 @import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Grechen+Fuemen&display=swap');
 
@@ -35,7 +42,24 @@ section{
     width: 100%;
     display: inline-block;
     z-index: 20;
-    animation: mbg 15s ease-in-out infinite ;
+    -webkit-animation: mbg 15s ease-in-out infinite ;
+            animation: mbg 15s ease-in-out infinite ;
+}
+@-webkit-keyframes mbg {
+    0%{background-image: url(./img/20209.jpg);
+        color: black;
+    }
+    45%{background-image: url(./img/20209.jpg);
+        color: black;
+    }
+    50%{
+        background-image: url(./img/md-mehedi-hasan-gfvYlz-9x5I-unsplash.jpg);
+        color: #fff;
+    }
+    95%{
+        background-image: url(./img/md-mehedi-hasan-gfvYlz-9x5I-unsplash.jpg);
+        color: #fff;
+    }
 }
 @keyframes mbg {
     0%{background-image: url(./img/20209.jpg);
@@ -56,7 +80,8 @@ section{
 @media screen and (min-width: 900px){
     .firstLook{
         background-image: url(./img/wallpaperflare.com_wallpaper\ \(1\).jpg);
-        animation: bg 10s ease-in infinite ;
+        -webkit-animation: bg 10s ease-in infinite ;
+                animation: bg 10s ease-in infinite ;
     }
     /* @keyframes bg {
         0%{
@@ -173,6 +198,8 @@ nav ul li a{
 .name button{
     background-color: rgba(0, 0, 0, 0);
     border: 3px solid #fff;
+    -webkit-transition:all .5s linear;
+    -o-transition:all .5s linear;
     transition:all .5s linear;
 }
 .name button:hover{
@@ -249,4 +276,17 @@ span{
     border-right: 20px solid transparent;
     border-left: 20px solid transparent;
     
+}.example {
+    display: -ms-grid;
+    display: grid;
+    -webkit-transition: all .5s;
+    -o-transition: all .5s;
+    transition: all .5s;
+    -webkit-user-select: none;
+       -moz-user-select: none;
+        -ms-user-select: none;
+            user-select: none;
+    background: -webkit-gradient(linear, left top, left bottom, from(white), to(black));
+    background: -o-linear-gradient(top, white, black);
+    background: linear-gradient(to bottom, white, black);
 }
