@@ -24,9 +24,9 @@
 }
 .secendLook div{
     border: 2px solid black;
-    width: 80%;
+    width: 70%;
     height: 80%;
-    margin: 300px 5px;
+    margin: 300px 2px;
 }
 nav{
     display: flex;
