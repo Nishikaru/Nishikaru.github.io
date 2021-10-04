@@ -34,14 +34,16 @@ section{
 }
 .secendLook{
     background-color: #fff;
-    height: 110vh;
+    height: 100vh;
 }
 .secendLook div{
     border: 2px solid black;
     width: 90%;
     height: 70%;
-    margin: 100px 10px;
+    /* margin: 100px 10px; */
     border-radius: 15px;
+    top: 5%;
+    left: 5%;
 }
 nav{
     display: -webkit-box;
@@ -64,6 +66,7 @@ nav h2{
     font-size: 30px;
     font-family: 'Grechen Fuemen', cursive;
 }
+
 nav ul li{
     display: inline-block;
     list-style: none;
@@ -134,7 +137,11 @@ nav ul li a{
 .name button{
     background-color: rgba(0, 0, 0, 0);
     border: 3px solid #fff;
-    
+    transition:all .5s linear;
+}
+.name button:hover{
+    border-radius: 15px;
+    border-color: red;
 }
 a{
     text-decoration: none;
