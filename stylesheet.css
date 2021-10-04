@@ -179,7 +179,6 @@ a{
 } */
 .secendLook div{
     position: relative;
-    z-index: 10;
 }
 .secendLook div p{
     font-size: 18px;
@@ -213,4 +212,10 @@ a{
     bottom: 3%;
     right:  4%;
     width: 25px;
+}
+span{
+    border-bottom: 50px solid rgb(255, 194, 125);
+    border-right: 25px solid transparent;
+    border-left: 25px solid transparent;
+    
 }
