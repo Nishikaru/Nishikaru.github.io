@@ -214,8 +214,8 @@ a{
     width: 25px;
 }
 span{
-    border-bottom: 50px solid rgb(255, 194, 125);
-    border-right: 25px solid transparent;
-    border-left: 25px solid transparent;
+    border-bottom: 25px solid rgb(255, 194, 125);
+    border-right: 20px solid transparent;
+    border-left: 20px solid transparent;
     
 }
