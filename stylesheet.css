@@ -81,6 +81,7 @@ section{
     .firstLook{
         background-image: url(./img/wallpaperflare.com_wallpaper\ \(1\).jpg);
         -webkit-animation: bg 10s ease-in infinite ;
+        color: #fff;
                 animation: bg 10s ease-in infinite ;
     }
     /* @keyframes bg {
