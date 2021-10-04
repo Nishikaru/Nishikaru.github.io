@@ -102,3 +102,6 @@ nav ul li a{
     border: 3px solid #fff;
     
 }
+a{
+    text-decoration: none;
+}
