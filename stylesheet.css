@@ -34,6 +34,7 @@ section{
     margin-top: -20px;
     width: 100%;
     display: inline-block;
+    z-index: 20;
 }
 .secendLook{
     background-color: #fff;
@@ -205,4 +206,11 @@ a{
     position: absolute;
     bottom: 2%;
     color: #fff;
+}
+.up{
+    border-radius: 50%;
+    position: fixed;
+    bottom: 3%;
+    right:  4%;
+    width: 25px;
 }
