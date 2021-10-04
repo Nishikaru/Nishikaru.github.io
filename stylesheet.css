@@ -52,7 +52,7 @@ nav ul li{
 nav ul li a{
     text-decoration: none;
     color: #fff;
-    font-size: 25px;
+    font-size: 18px;
     font-family: 'Satisfy', cursive;
 }
 .name{
@@ -63,7 +63,7 @@ nav ul li a{
     margin: 20px;
 }
 .name p{
-    font-size: 40px;
+    font-size: 250px;
     font-family: 'Grechen Fuemen', cursive;
 }
 .name h1{
@@ -90,9 +90,9 @@ nav ul li a{
     }
 }
 .name button div{
-    width: 400px;
-    height: 150px;
-    font-size: 40px;
+    width: 70%;
+    height: 25%;
+    font-size: 25px;
     color: #fff;
     padding: 50px;
 }
