@@ -38,13 +38,19 @@ section{
     animation: mbg 15s ease-in-out infinite ;
 }
 @keyframes mbg {
-    0%{background-image: url(./img/20209.jpg);}
-    45%{background-image: url(./img/20209.jpg);}
+    0%{background-image: url(./img/20209.jpg);
+        color: black;
+    }
+    45%{background-image: url(./img/20209.jpg);
+        color: black;
+    }
     50%{
         background-image: url(./img/md-mehedi-hasan-gfvYlz-9x5I-unsplash.jpg);
+        color: #fff;
     }
     95%{
         background-image: url(./img/md-mehedi-hasan-gfvYlz-9x5I-unsplash.jpg);
+        color: #fff;
     }
 }
 @media screen and (min-width: 900px){
@@ -58,8 +64,8 @@ section{
         }
         50%{
             background-image: url(./img/images/background.png);
-        } */
-    }
+        }
+    } */
 }
 .secendLook{
     background-color: #fff;
