@@ -119,3 +119,14 @@ a{
     display: block;
     margin: 20px 10px;
 }
+.vid{
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+.vid video{
+    position: relative;
+    
+    width: 100%;
+    height: 100%;
+}
