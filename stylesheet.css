@@ -339,6 +339,7 @@ span{
     max-width: 500px;
     text-align: center;
     border-radius: 15px;
+    padding: 2vh;
 }
 .loginSec div h1{
     text-transform: uppercase;
