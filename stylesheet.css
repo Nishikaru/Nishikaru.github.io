@@ -361,18 +361,18 @@ span{
 @keyframes bc {
     0%{
         border: 2px blue solid;
-        color: red;
+        box-shadow:0 0 10px blue;
     }
     33.33%{
         border: 2px red solid;
-        color: green;
+        box-shadow:0 0 10px red;
     }
     66.66%{
         border: 2px green solid;
-        color: blue;
+        box-shadow:0 0 10px green;
     }
     100%{
         border: 2px blue solid;
-        color: red;
+        box-shadow:0 0 10px blue;
     }
 }
