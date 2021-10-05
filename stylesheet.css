@@ -318,7 +318,7 @@ span{
 
 .loginSec{
     /* background-color: #000; */
-    background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.4),rgba(0, 0, 0, 0.4)), url(./img/ramon-kagie-C3fM8P6VPGE-unsplash.jpg);
+    background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.3),rgba(0, 0, 0, 0.3)), url(./img/ramon-kagie-C3fM8P6VPGE-unsplash.jpg);
     display: flex;
     background-attachment: fixed;
     background-size: cover;
@@ -327,7 +327,7 @@ span{
     position: relative;
 }
 .loginSec div{
-    background-color: rgba(255, 255, 255, 0.8);
+    background-color: rgba(0, 0, 0, 0.85);
     position: absolute;
     left: 0;
     right: 0;
@@ -342,6 +342,7 @@ span{
 }
 .loginSec div h1{
     text-transform: uppercase;
+    color: #fff;
 }
 .hp{
     position: absolute;
@@ -377,4 +378,66 @@ span{
         border: 2px blue solid;
         box-shadow:0 0 10px blue;
     }
+}
+#username{
+    position: absolute;
+    top: 15vh;
+    left: 0;
+    right: 0;
+    width: 200px;
+    margin: auto;
+    border-radius: 10px;
+    border: 2px skyblue solid ;
+}
+#pass{
+    position: absolute;
+    top: 25vh;
+    left: 0;
+    right: 0;
+    width: 200px;
+    margin: auto;
+    border-radius: 10px;
+    border: 2px skyblue solid ;
+}
+.pass{
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 20vh;
+    margin: auto;
+}
+.username{
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 10vh;
+    margin: auto;
+}
+.sublog{
+    position: absolute;
+    bottom: 8vh;
+    right: 0;
+    left: 0;
+    margin: auto;
+    width: 120px;
+    border-radius: 5px;
+    border: 2px solid;
+    animation: sublog 10s ease-out infinite;
+}
+@keyframes sublog {
+    0%{
+        border-top: 2px green solid;
+    }
+    25%{
+        border-left: 2px green solid;
+    }
+    50%{
+        border-bottom: 2px green solid;
+    }
+    75%{
+        border-right: 2px green solid ;
+    }
+    /* 100%{
+        border-top: red solid;
+    } */
 }
