@@ -385,7 +385,7 @@ span{
     top: 15vh;
     left: 0;
     right: 0;
-    width: 200px;
+    width: 23vh;
     margin: auto;
     border-radius: 10px;
     border: none;
@@ -398,7 +398,7 @@ span{
     top: 25vh;
     left: 0;
     right: 0;
-    width: 200px;
+    width: 23vh;
     margin: auto;
     border-radius: 10px;
     border: none;
@@ -426,8 +426,8 @@ span{
     right: 0;
     left: 0;
     margin: auto;
-    width: 120px;
-    height: 40px;
+    width: 23vh;
+    height: 6vh;
     border-radius: 5px;
     border: 2px solid;
     background-color: transparent;
@@ -455,9 +455,11 @@ span{
     left: 0;
     right: 0;
     margin: auto;
+    text-transform: capitalize;
     color: #fff;
 }
 .nm a{
     text-decoration: none;
+    text-transform: capitalize;
     color: skyblue;
 }
