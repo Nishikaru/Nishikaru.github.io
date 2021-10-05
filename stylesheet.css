@@ -202,6 +202,7 @@ nav ul li a{
     -webkit-transition:all .5s linear;
     -o-transition:all .5s linear;
     transition:all .5s linear;
+    cursor: pointer;
 }
 .name button:hover{
     border-radius: 15px;
@@ -357,6 +358,7 @@ span{
     color: #fff;
     font-family: monospace;
     animation: bc 10s ease-in infinite;
+    cursor: pointer;
 }
 @keyframes bc {
     0%{
