@@ -434,6 +434,7 @@ span{
     color: skyblue;
     border:2px transparent solid ;
     animation: sublog 10s cubic-bezier(0.165, 0.84, 0.44, 1) infinite;
+    cursor: pointer;
 }
 @keyframes sublog {
     0%{
