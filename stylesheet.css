@@ -433,7 +433,7 @@ span{
     background-color: transparent;
     color: skyblue;
     border:2px transparent solid ;
-    animation: sublog 10s ease-in-out infinite;
+    animation: sublog 10s cubic-bezier(0.165, 0.84, 0.44, 1) infinite;
 }
 @keyframes sublog {
     0%{
@@ -443,12 +443,9 @@ span{
         border-left: 2px skyblue solid;
     }
     50%{
-        border-bottom: 2px skyblue solid;
-    }
-    75%{
         border-right: 2px skyblue solid ;
     }
-    100%{
-        border-top: 2px skyblue solid;
+    75%{
+        border-bottom: 2px skyblue solid;
     }
 }
