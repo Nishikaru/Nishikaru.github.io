@@ -323,7 +323,7 @@ span{
     background-attachment: fixed;
     background-size: cover;
     background-position: center ;
-    height: 95vh;
+    height: 100vh;
     position: relative;
 }
 .loginSec div{
@@ -349,7 +349,7 @@ span{
     position: absolute;
     left: 0;
     right: 0;
-    bottom: 2%;
+    bottom: 8%;
     margin: auto;
     width: 90px;
     height: 50px;
