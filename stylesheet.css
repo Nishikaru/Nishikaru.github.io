@@ -316,7 +316,7 @@ span{
 /* --------------Login page------------ */
 
 
-.loginSec{
+.loginSec, .singup{
     /* background-color: #000; */
     background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.3),rgba(0, 0, 0, 0.3)), url(./img/ramon-kagie-C3fM8P6VPGE-unsplash.jpg);
     display: flex;
@@ -448,4 +448,16 @@ span{
     75%{
         border-bottom: 2px skyblue solid;
     }
+}
+.nm{
+    position: absolute;
+    bottom: 2vh;
+    left: 0;
+    right: 0;
+    margin: auto;
+    color: #fff;
+}
+.nm a{
+    text-decoration: none;
+    color: skyblue;
 }
