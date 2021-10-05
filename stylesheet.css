@@ -387,7 +387,10 @@ span{
     width: 200px;
     margin: auto;
     border-radius: 10px;
-    border: 2px skyblue solid ;
+    border: none;
+    border-bottom: 2px skyblue solid ;
+    outline: none;
+    background-color: transparent;
 }
 #pass{
     position: absolute;
@@ -397,7 +400,10 @@ span{
     width: 200px;
     margin: auto;
     border-radius: 10px;
-    border: 2px skyblue solid ;
+    border: none;
+    border-bottom: 2px skyblue solid ;
+    outline: none;
+    background-color: transparent;
 }
 .pass{
     position: absolute;
@@ -422,7 +428,10 @@ span{
     width: 120px;
     border-radius: 5px;
     border: 2px solid;
-    animation: sublog 10s ease-out infinite;
+    background-color: skyblue;
+    color: #fff;
+    border:2px transparent solid ;
+    animation: sublog 10s ease-in-out infinite;
 }
 @keyframes sublog {
     0%{
@@ -437,7 +446,7 @@ span{
     75%{
         border-right: 2px green solid ;
     }
-    /* 100%{
-        border-top: red solid;
-    } */
+    100%{
+        border-top: 2px green solid;
+    }
 }
