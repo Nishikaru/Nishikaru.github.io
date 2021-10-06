@@ -130,6 +130,53 @@ section{
         height: 75vh;
         border-radius: 15px;
     }
+    /* .up{
+        position: absolute;
+        right: -20;
+    } */
+    #up{
+        border-bottom: 25px solid transparent;
+        border-right: 20px solid transparent;
+        border-left: 20px solid transparent;
+        right: -200px;
+    }
+    #Nav{
+        position: absolute;
+        top: -200px;
+    }
+    #logo{
+        color: #fff;
+        font-size: 70px;
+        text-align: center;
+        left: 43vh;
+        top: 5vh;
+        position: absolute;
+    }
+    #name p{
+        position: absolute;
+        top: -37vh;
+        left: 43vh;
+        width: 200px;
+    }
+    #name h1{
+        position: absolute;
+        top: -35vh;
+        left: 43vh;
+        width: 200px;
+    }
+    #sm{
+        position: absolute;
+        top: 7vh;
+        display: inline-flex;
+    }
+    #name a button{
+        position: absolute;
+        width: 80vh;
+        left: 10vh;
+        padding: 0vh 35vh;
+        bottom: -30px;
+        background-color: rgba(0, 0, 0, 0.5);
+    }
 }
 .secendLook{
     height: 105vh;
@@ -321,7 +368,8 @@ span{
     border-right: 20px solid transparent;
     border-left: 20px solid transparent;
     
-}.example {
+}
+.example {
     display: -ms-grid;
     display: grid;
     -webkit-transition: all .5s;
