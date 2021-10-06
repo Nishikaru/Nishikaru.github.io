@@ -168,6 +168,7 @@ section{
         position: absolute;
         top: 7vh;
         display: inline-flex;
+        height: 10px;
     }
     #name a button{
         position: absolute;
