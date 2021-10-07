@@ -5,13 +5,6 @@
 * Browsers: last 4 version
 */
 
-/*
-* Prefixed by https://autoprefixer.github.io
-* PostCSS: v8.3.6,
-* Autoprefixer: v10.3.1
-* Browsers: last 4 version
-*/
-
 @import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Grechen+Fuemen&display=swap');
 
@@ -129,7 +122,8 @@ section{
         clear: both;
         height: 75vh;
         border-radius: 15px;
-        box-shadow: 0px 0px 7px 2px rgba(0, 0, 0, 0.753);
+        -webkit-box-shadow: 0px 0px 7px 2px rgba(0, 0, 0, 0.753);
+                box-shadow: 0px 0px 7px 2px rgba(0, 0, 0, 0.753);
     }
     /* .up{
         position: absolute;
@@ -168,6 +162,8 @@ section{
     #sm{
         position: absolute;
         top: 7vh;
+        display: -webkit-inline-box;
+        display: -ms-inline-flexbox;
         display: inline-flex;
         height: 10px;
     }
@@ -293,7 +289,8 @@ nav ul li a{
 .name button:hover{
     border-radius: 15px;
     border-color: gold;
-    box-shadow:0 0 10px gold;
+    -webkit-box-shadow:0 0 10px gold;
+            box-shadow:0 0 10px gold;
     text-shadow: 0 0 10px gold;
 }
 a{
@@ -328,7 +325,8 @@ a{
     bottom: 0;
     top: 0;
     margin: auto;
-    box-shadow: 0px 0px 7px 2px rgba(0, 0, 0, 0.753);
+    -webkit-box-shadow: 0px 0px 7px 2px rgba(0, 0, 0, 0.753);
+            box-shadow: 0px 0px 7px 2px rgba(0, 0, 0, 0.753);
 }
 .secendLook div h2{
     text-align: center;
@@ -384,8 +382,8 @@ span{
        -moz-user-select: none;
         -ms-user-select: none;
             user-select: none;
-    background: -webkit-gradient(linear, left top, left bottom, from(white), to(black));
     background: -o-linear-gradient(top, white, black);
+    background: -webkit-gradient(linear, left top, left bottom, from(white), to(black));
     background: linear-gradient(to bottom, white, black);
 }
 
@@ -396,6 +394,8 @@ span{
 .loginSec, .singup{
     /* background-color: #000; */
     background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.3),rgba(0, 0, 0, 0.3)), url(./img/ramon-kagie-C3fM8P6VPGE-unsplash\ \(small\).jpg);
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
     background-attachment: fixed;
     background-size: cover;
@@ -436,25 +436,52 @@ span{
     border: 1px skyblue solid;
     color: #fff;
     font-family: monospace;
-    animation: bc 10s ease-in infinite;
+    -webkit-animation: bc 10s ease-in infinite;
+            animation: bc 10s ease-in infinite;
     cursor: pointer;
+}
+@-webkit-keyframes bc {
+    0%{
+        border: 2px blue solid;
+        -webkit-box-shadow:0 0 10px blue;
+                box-shadow:0 0 10px blue;
+    }
+    33.33%{
+        border: 2px red solid;
+        -webkit-box-shadow:0 0 10px red;
+                box-shadow:0 0 10px red;
+    }
+    66.66%{
+        border: 2px green solid;
+        -webkit-box-shadow:0 0 10px green;
+                box-shadow:0 0 10px green;
+    }
+    100%{
+        border: 2px blue solid;
+        -webkit-box-shadow:0 0 10px blue;
+                box-shadow:0 0 10px blue;
+    }
 }
 @keyframes bc {
     0%{
         border: 2px blue solid;
-        box-shadow:0 0 10px blue;
+        -webkit-box-shadow:0 0 10px blue;
+                box-shadow:0 0 10px blue;
     }
     33.33%{
         border: 2px red solid;
-        box-shadow:0 0 10px red;
+        -webkit-box-shadow:0 0 10px red;
+                box-shadow:0 0 10px red;
     }
     66.66%{
         border: 2px green solid;
-        box-shadow:0 0 10px green;
+        -webkit-box-shadow:0 0 10px green;
+                box-shadow:0 0 10px green;
     }
     100%{
         border: 2px blue solid;
-        box-shadow:0 0 10px blue;
+        -webkit-box-shadow:0 0 10px blue;
+                box-shadow:0 0 10px blue;
     }
 }
 #username{
@@ -510,8 +537,23 @@ span{
     background-color: transparent;
     color: skyblue;
     border:2px transparent solid ;
-    animation: sublog 10s cubic-bezier(0.165, 0.84, 0.44, 1) infinite;
+    -webkit-animation: sublog 10s cubic-bezier(0.165, 0.84, 0.44, 1) infinite;
+            animation: sublog 10s cubic-bezier(0.165, 0.84, 0.44, 1) infinite;
     cursor: pointer;
+}
+@-webkit-keyframes sublog {
+    0%{
+        border-top: 2px skyblue solid;
+    }
+    25%{
+        border-left: 2px skyblue solid;
+    }
+    50%{
+        border-right: 2px skyblue solid ;
+    }
+    75%{
+        border-bottom: 2px skyblue solid;
+    }
 }
 @keyframes sublog {
     0%{
