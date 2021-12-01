@@ -26,3 +26,8 @@
 .gamePcImg{
     width: 100%;
 }
+@media (min-width: 768px ) {
+    .ctmHome{
+    margin-top: 20vh;
+    }
+}
