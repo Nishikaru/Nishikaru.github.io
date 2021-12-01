@@ -25,6 +25,36 @@
 }
 .gamePcImg{
     width: 100%;
+    animation: gamepc 3s linear infinite;
+    position: relative;
+}
+.ctmHome{
+    animation: hometext 10s linear infinite ;
+}
+@keyframes hometext {
+    0%{
+        
+    }
+    90%{
+        color: #000;
+    }
+    95%{
+        color: rgb(53, 158, 219);
+    }
+    100%{
+        color: #000;
+    }
+}
+@keyframes gamepc {
+    0%{
+        top: 0em;
+    }
+    50%{
+        top: -1em;
+    }
+    100%{
+        top: 0em;
+    }
 }
 @media (min-width: 768px ) {
     .ctmHome{
