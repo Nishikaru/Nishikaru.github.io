@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@500&display=swap');
 
 
 
@@ -5,6 +6,7 @@
     --main-color: orange;
     --secend-color:rgb(255, 204, 110);
     --transTime: 2s ease linear ;
+    --main-text: 'Cinzel', serif;
 }
 .cnavbar{
     background-color: var(--main-color);
@@ -16,6 +18,7 @@
 }
 .navbar-brand{
     transition: var(--transTime) ;
+    font-family: var(--main-text);
 }
 .navbar-brand:hover {
     text-shadow: 2px 2px 2px #CE5937;
@@ -31,6 +34,9 @@
 .ctmHome{
     animation: hometext 10s linear infinite ;
     text-align: center;
+}
+.ctmHome h2{
+    font-family: var(--main-text);
 }
 @keyframes hometext {
     0%{
@@ -61,5 +67,36 @@
     .ctmHome{
     margin-top: 20vh;
     text-align: left;
+    }
+}
+/* partsec>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
+
+.partsec{
+    min-height: 100vh;
+    background-color: floralwhite;
+}
+.middeldiv{
+    padding-top: 3em;
+}
+.tab-pane{
+    overflow-x: auto;
+}
+/* contact>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
+
+.contact{
+    background-color: rgb(32, 32, 32);
+    min-height: 30vh;
+    color: floralwhite;
+    text-align: center;
+}
+.contact li{
+    list-style: none;
+}
+.contact h4{
+    font-family: var(--main-text);
+}
+@media (min-width:768px) {
+    .contact{
+        text-align: left;
     }
 }
