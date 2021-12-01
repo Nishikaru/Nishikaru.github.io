@@ -30,6 +30,7 @@
 }
 .ctmHome{
     animation: hometext 10s linear infinite ;
+    text-align: center;
 }
 @keyframes hometext {
     0%{
@@ -59,5 +60,6 @@
 @media (min-width: 768px ) {
     .ctmHome{
     margin-top: 20vh;
+    text-align: left;
     }
 }
