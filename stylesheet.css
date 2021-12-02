@@ -125,7 +125,7 @@ nav .nav-item{
     overflow-y: auto;
 }
 .card{
-    margin: 7%;
+    margin: 10%;
 }
 @media (min-width:768px) {
     .card{
