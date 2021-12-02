@@ -10,7 +10,9 @@
     --secend-text: 'Marcellus', serif;
 }
 
-
+html{
+    scroll-behavior: smooth;
+}
 
 
 
