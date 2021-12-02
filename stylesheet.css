@@ -9,8 +9,36 @@
     --main-text: 'Cinzel', serif;
     --secend-text: 'Marcellus', serif;
 }
+
+
+
+
+
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: transparent;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: var(--main-color);
+    border-radius: 2px;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555;
+  }
+
+
 *{
     font-family: var(--secend-text);
+    cursor: url(/img/images/bee.png),auto;
 }
 .cnavbar{
     background-color: var(--main-color);
@@ -50,14 +78,17 @@ nav .nav-item{
     0%{
         
     }
-    90%{
+    45%{
         color: #000;
     }
-    95%{
+    50%{
         color: rgb(53, 158, 219);
     }
-    100%{
+    55%{
         color: #000;
+    }
+    100%{
+
     }
 }
 @keyframes gamepc {
