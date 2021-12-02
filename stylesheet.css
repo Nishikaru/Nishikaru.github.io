@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@500&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Marcellus&display=swap');
 
 
 :root{
@@ -7,9 +7,17 @@
     --secend-color:rgb(255, 204, 110);
     --transTime: 2s ease linear ;
     --main-text: 'Cinzel', serif;
+    --secend-text: 'Marcellus', serif;
+}
+*{
+    font-family: var(--secend-text);
 }
 .cnavbar{
     background-color: var(--main-color);
+}
+nav .nav-item{
+    padding-left: 1em;
+    padding-right: 1em;
 }
 .home{
     min-height: 100vh ;
@@ -79,7 +87,17 @@
     padding-top: 3em;
 }
 .tab-pane{
-    overflow-x: auto;
+    max-height: 80vh;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+.card{
+    margin: 7%;
+}
+@media (min-width:768px) {
+    .card{
+        margin: 15%;
+    }
 }
 /* contact>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
 
@@ -91,9 +109,13 @@
 }
 .contact li{
     list-style: none;
+    text-align: left;
 }
 .contact h4{
     font-family: var(--main-text);
+}
+.GetApp h4{
+    text-align: justify;
 }
 @media (min-width:768px) {
     .contact{
