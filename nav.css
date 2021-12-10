@@ -58,12 +58,18 @@ nav ul li{
     padding: 1em;
     transition: 200ms ease;
     border-radius: 50%;
+    border-top-left-radius: 12px;
     color: var(--clr);
 }
 .ic:before{
     background-color: transparent;
     box-shadow: 0px 0px transparent;
-    transition: 8s linear;
+    transition: 200ms ease;
+}
+.ic:after{
+    background-color: transparent;
+    box-shadow: 0px 0px transparent;
+    transition: 200ms ease;
 }
 .ic:hover:before{
     content: '';
