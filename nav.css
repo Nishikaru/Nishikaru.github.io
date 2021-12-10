@@ -13,7 +13,7 @@ section{
 nav{
     position: fixed;
     width: 25em;
-    height: .2em;
+    height: 2.5em;
     justify-content: center;
     text-align: center;
     background-color: whitesmoke;
@@ -49,6 +49,9 @@ nav ul li{
 
 } */
 .fas{
+    width: 20px;
+}
+.ic{
     position:absolute ;
     transform: translate(-50%,-50%);
     top: 0px;
@@ -57,7 +60,34 @@ nav ul li{
     border-radius: 50%;
     color: var(--clr);
 }
-.fas:hover{
+.ic:before{
+    background-color: transparent;
+    box-shadow: 0px 0px transparent;
+    transition: 8s linear;
+}
+.ic:hover:before{
+    content: '';
+    position: absolute;
+    top: 32px;
+    left: -25px;
+    width: 20px;
+    height: 20px;
+    border-top-right-radius: 50%;
+    background-color: whitesmoke;
+    box-shadow: 3px -12px var(--clr);
+}
+.ic:hover::after{
+    content: '';
+    position: absolute;
+    top: 32px;
+    left: 60px;
+    width: 20px;
+    height: 20px;
+    border-top-left-radius: 50%;
+    background-color: whitesmoke;
+    box-shadow: -3px -12px var(--clr);
+}
+.ic:hover{
     top: -20px;
     background-color: rgb(255, 217, 0);
     border: 7px solid var(--clr);
