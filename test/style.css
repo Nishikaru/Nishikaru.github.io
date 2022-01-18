@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(33, 158, 110);
+}
+h1{
+    text-align: center;
+    font-family: sans-serif;
+    font-weight: 600;
+    margin-top: 15vh;
+}
+h2{
+    text-align: center;
+    font-family: sans-serif;
+    font-weight: 600;
+    margin-top: 30vh;
+}
+button{
+    position: absolute;
+    text-align: center;
+    transform: translate(-50%,-50%);
+    top: 50%;
+    left: 50%;
+    background-color: goldenrod;
+    padding: 2em;
+    font-size: large;
+    font-family: serif;
+    font-weight: 600;
+    border-radius: 15px;
+    border:3px solid black;
+}
+div{
+    
+    border: 10px solid black;
+    border-radius: 15px;
+    width: 200px;
+    height: 200px;
+    background-color: rgb(170, 41, 41);
+}
+.red{
+    position: absolute;
+    transform: translate(-50%,-50%);
+    top: 35%;
+    left: 40%;
+    background-color: red;
+}.blue{
+    position: absolute;
+    transform: translate(-50%,-50%);
+    top: 35%;
+    left: 60%;
+    background-color: blue;
+}.green{
+    position: absolute;
+    transform: translate(-50%,-50%);
+    top: 65%;
+    left: 40%;
+    background-color: green;
+}.pink{
+    position: absolute;
+    transform: translate(-50%,-50%);
+    top: 65%;
+    left: 60%;
+    background-color: pink;
+}
+.newStyle{
+    /* background-color: coral; */
+    /* background-image: url(https://www.girlsnudepic.com/stockings/1?code=MTY2eDI0eDM0NDgx&th=aHR0cDovL3plbmZpZWxkLnByby9pbWFnZXMvZ2lybHNudWRlcGljLmNvbS8zOC81NTlfZHJ1bmtfd2l0aC5qcGc=); */
+    background: url(./016_FTV_FTV.jpg);
+    background-size: 200px 200px;
+}
+.newbg{
+    background-color: red ;
+}
+@media (max-width:768px) {
+
+    div{
+        width: 80px;
+        height: 100px;
+    }
+    .newStyle{
+        background-size: 80px 100px;
+    }
+}
